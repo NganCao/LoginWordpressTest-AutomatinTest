@@ -12,6 +12,6 @@ class LI_06Cest
     {
         $I = new AdminTester($scenario);
         $I->loginAsAdmin('CaoThiKimNgan97.ym@gmail.com', '12#>ming');
-        $I->see('Pass!'); // show mess thông báo
+//        $I->see('Pass!'); // show mess thông báo
     }
 }
